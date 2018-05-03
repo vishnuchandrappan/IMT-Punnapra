@@ -4,6 +4,8 @@ The Project was done for IMT Punnapra, for their official use. They Just need to
   Backend:php
   DB : MySql
   DB Connectivity : mysqli (Object Oriented)
+  
+dummy website link : https://imtpunnapra.000webhostapp.com/
 
 At First you can use                 /init/init.php             to create database and create necessary tables.
 Details of Database :
