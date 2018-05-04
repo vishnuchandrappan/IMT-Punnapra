@@ -5,10 +5,38 @@ The Project was done for IMT Punnapra, for their official use. They Just need to
   DB : MySql
   DB Connectivity : mysqli (Object Oriented)
   
-dummy website link : https://imtpunnapra.000webhostapp.com/
+Dummy website link : https://imtpunnapra.000webhostapp.com/
 
 At First you can use                 /init/init.php             to create database and create necessary tables.
+https://imtpunnapra.000webhostapp.com/init/init.php
+
+*****************************************************************************************************************************
+
 Details of Database :
   DB Name : fee
   Tables:
-      student(name VARCHAR,adm VARCHAR,admt CHAR,fn VARCHAR,fno
+      student(name, adm (admission no. ),admt (admission type - reservation/management),phno, email, fn (name of father),fno (contcat- father),mname (name of mother),mno (contact-mother), rel, cas, addr)
+      inter(adm, rno (receipt no))
+      record(sem, dat (date), rno, amt (amount)
+      
+*****************************************************************************************************************************
+
+You can try out the working of this by a dummy record with admission number : 00000000 
+or you can add a new one.
+
+1. VIEW
+Enter the admission number, the next page will show you the details of student, below it will be the details of fee he/she paid.
+The four colored dots on top-right corner shows wheather (s)he paid semster fees completely. If it is green, (s)he have paid or else (if red) (s)he have'nt. The four dots denoted four semesters.
+
+2.Update
+Enter the admission number and you can update details of student, means, fee details.
+
+3.Add
+Enter the complete details and also you can update fee detials here.
+
+
+That's it !
+
+*****************************************************************************************************************************
+                            This was a project done strictly according to the user's need
+*****************************************************************************************************************************
