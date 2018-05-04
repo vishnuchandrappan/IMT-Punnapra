@@ -34,8 +34,8 @@
 	<?php
 	$adm=$_POST['adm'];
 			$servername = "localhost";
-			$username = "Admin@IMT";
-			$password = "IMTadmin123";
+			$username = "uname";
+			$password = "passwd";
 			$dbname = "fee";
 			$conn=new mysqli($servername, $username, $password,$dbname);
 			if ($conn->connect_error) 
