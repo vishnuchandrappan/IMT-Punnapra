@@ -8,7 +8,7 @@ The Project was done for IMT Punnapra, for their official use. They Just need to
 Dummy website link : https://imtpunnapra.000webhostapp.com/
 
 At First you can use                 /init/init.php             to create database and create necessary tables.
-https://imtpunnapra.000webhostapp.com/init/init.php
+https://imtpunnapra.000webhostapp.com/init.php
 
 *****************************************************************************************************************************
 
