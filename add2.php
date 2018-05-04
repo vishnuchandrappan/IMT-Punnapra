@@ -38,8 +38,8 @@
 		
 			<?php
 				$servername = "localhost";
-				$username = "Admin@IMT";
-				$password = "IMTadmin123";
+				$username = "uname";
+				$password = "passwd";
 				$db="fee";
 				$tablename="student";
 				$conn = new mysqli($servername, $username, $password,$db);
